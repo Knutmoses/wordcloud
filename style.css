@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+  background-color: #E8D9C5;
+  text-align: center;
+  border: 10px solid #125F3A;
+  border-left: 10px solid #125F3A;
+  border-right: 10px solid #125F3A;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+img {
+  border-radius: 8px;
+  border-radius: 50%;
+  width: 75px;
+}
+
+h1 {
+  color: #884400;
+}
+
+h2 {
+  color: #888800;
+}
