@@ -1,20 +1,3 @@
-<html lang="de">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="style.css" rel="stylesheet" type="text/css">
-
-        <title>Word Cloud Generator</title>
-
-        <img src="data/wcg.png" alt="Logo">
-
-        <h1>Willkommen bei WCG</h1>
-        <h2>Ihrem Word Cloud Generator</h2>
-
-        <script src="../wordcloud/d3-wordcloud-master/lib/d3/d3.js" charset="utf-8"></script>
-        <script src="../wordcloud/d3-wordcloud-master/lib/d3/d3.layout.cloud.js"></script>
-        <script src="../wordcloud/d3-wordcloud-master/d3.wordcloud.js"></script>
-
         <script type="text/javascript">
 
             var words = [
@@ -60,10 +43,7 @@
             ?>
         ];
         </script>
-    </head>
 
-
-    <body style="text-align: center">
 
         <div id='wordcloud'></div>
 
@@ -79,6 +59,3 @@
                     })
                     .start();
             </script>
-
-    </body>
-</html>
